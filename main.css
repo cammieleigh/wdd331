@@ -33,7 +33,7 @@ li{
     padding-top: 10px;
     text-align: center;
 }
-
+/* link, visited, hover, active (the order for styling links)*/
 li a{
     color: #666;
     text-decoration: none;
@@ -100,7 +100,7 @@ article{
 @media only screen and (min-width: 700px){
     ul{
         display: flex;
-        flex-direction: horizontal;
+        flex-direction: row;
         justify-content: flex-end;
         column-gap: 10px;
     }
